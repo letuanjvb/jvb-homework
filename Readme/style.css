@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 350px;
+    background-color: #FFD900;
+    ;
+}
+.ver{
+    padding-top: 65px;
+    padding-left: 140px;
+
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.readme{
+    padding-left: 79px;
+    padding-left: 131px;
+
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 239px;
+}
+
+h2{
+    margin-top: 90px;
+    margin-left: 131px;
+    margin-bottom: 26px;
+
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+}
+
+p, a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.inline1{
+    border-left: 6px solid black;
+    margin-left: 134px;
+    margin-bottom: 90px;
+    padding-left: 29px;
+    max-width: 923px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.inline2{
+    border-left: 6px solid black;
+    margin-left: 134px;
+    margin-bottom: 78px;
+    padding-left: 29px;
+    max-width: 923px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.inline3{
+    border-left: 6px solid black;
+    margin-left: 134px;
+    margin-bottom: 300px;
+    padding-left: 29px;
+    max-width: 923px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.img{
+    margin-top: 50px;
+    max-width: 680px;
+    max-height: 50px;
+}
