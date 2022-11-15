@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- gg icon(link icon up down) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />    
+    
+    <link href="calendar.css" rel="stylesheet">
+    <script src="calendar.js" defer></script>
+
+    <link href="darkmode.css" rel="stylesheet">
+    <script src="darkmode.js" defer></script>
+    
+    <title>Calendar UI</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="current">
+            <div class="current-date" id="month-picker"></div>
+            <div class="current-year" id="year-picker"></div>
+            </div>
+            <div class="icons">
+                <span id="prev" class="material-symbols-outlined">arrow_drop_down</span>
+                <span id="next" class="material-symbols-outlined">arrow_drop_up</span>
+            </div>
+        </header>
+
+        <div class="calendar">
+            <ul class="weeks">
+                <li>Su</li>
+                <li>Mo</li>
+                <li>Tu</li>
+                <li>We</li>
+                <li>Th</li>
+                <li>Fr</li>
+                <li>Sa</li>
+            </ul>
+            <ul class="days">
+                <li class="inactive">28</li>
+                <li class="inactive">29</li>
+                <li class="inactive">30</li>
+                <li class="inactive">31</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li class="active">10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li class="inactive">1</li>
+                <li class="inactive">2</li>
+                <li class="inactive">3</li>
+                <li class="inactive">4</li>
+                <li class="inactive">5</li>
+                <li class="inactive">6</li>
+                <li class="inactive">7</li>
+                <li class="inactive">8</li>
+            </ul>
+
+            <div class="month-list">
+                <!-- <ul class="months">                -->
+                    <!-- <li class="active">10</li> -->                   
+                <!-- </ul> -->
+            </div>
+
+            <div class="year-list">
+                <!-- <div class="icons-year"> -->
+                    <!-- <div id="prev-year" class="material-symbols-outlined">arrow_drop_down</div> -->
+                    <!-- <div id="next-year" class="material-symbols-outlined">arrow_drop_up</div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <div class="calendar-footer">
+            <div class="info">
+                Made by LeTuan
+            </div>
+            <div class="toggle">
+                <div>Dark mode</div>
+                <div class="dark-mode-switch">
+                    <div class="dark-mode-switch-ident"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
